@@ -1,0 +1,42 @@
+#products {
+  background-color: #fff;
+  padding-top: 135px;
+  .products {
+    &__caption {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.36px;
+      text-align: center;
+      color: #3858d6;
+    }
+    &__title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 43.57px;
+      text-align: center;
+      color: #1e1d1d;
+      margin-bottom: 65px;
+    }
+    &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      margin-bottom: 69px;
+    }
+    &__see__more__btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        color: #fff;
+        background-color: #3858d6;
+        border-radius: 18px;
+        width: 200px;
+        height: 46px;
+      }
+    }
+  }
+}

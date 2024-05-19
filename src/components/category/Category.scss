@@ -1,0 +1,41 @@
+#category {
+  background-color: #fff;
+  padding-top: 73px;
+  .category {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    &__card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 26px;
+      padding: 46px 21px 44px 41px;
+      background-color: #f6f6f6;
+      border-radius: 22px;
+      transition: 0.2s ease-in-out;
+      h3 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43.57px;
+        color: #1e1d1d;
+        margin-bottom: 9px;
+        transition: 0.3s ease-in-out;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.36px;
+        color: #8b8e99;
+        transition: 0.3s ease-in-out;
+      }
+    }
+    &__card:hover {
+      background-color: #3858d6;
+      h3,
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
