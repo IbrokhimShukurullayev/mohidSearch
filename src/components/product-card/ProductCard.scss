@@ -38,13 +38,13 @@
     }
   }
   &__content {
-    padding: 11px;
+    padding: 11px 0 0 0;
     text-align: center;
     h3 {
       font-size: 24px;
       font-weight: 600;
       line-height: 36px;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
       display: -webkit-box;
       -webkit-line-clamp: 1;
       overflow: hidden;
@@ -55,9 +55,9 @@
       align-items: center;
       justify-content: center;
       gap: 7px;
-      margin-bottom: 12px;
+      margin-bottom: 7px;
       svg {
-        color: yellow;
+        color: #000;
         font-size: 18px;
       }
     }
