@@ -6,11 +6,10 @@ import { IoCart } from "react-icons/io5";
 import { FaHeart } from "react-icons/fa";
 
 
-const ProductCard = ({ data }) => {
-    let product = data?.map(el => (
+const ProductCard = ({ data }) => {let product = data?.map(el => (
         <div key={el.id} className="product__card">
             <div className="product__card__frame">
-                <img src={el.images[0]} alt="" />
+                <img src={el.urls[0]} alt="" />
                 <button className="product__cart__btn">
                     <IoCart />
                 </button>
@@ -34,6 +33,8 @@ const ProductCard = ({ data }) => {
             </div>
         </div>
     ))
+    console.log(data);
+    
     return product
 }
 
