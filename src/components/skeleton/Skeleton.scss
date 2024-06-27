@@ -1,7 +1,7 @@
 .skeleton__wrapper {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   margin-bottom: 50px;
 }

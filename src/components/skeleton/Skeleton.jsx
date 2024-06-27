@@ -4,7 +4,7 @@ import "./Skeleton.scss";
 const Skeleton = () => {
     return (
         <div className="skeleton__wrapper">
-            {[...Array(3)].map((_, index) => (
+            {[...Array(6)].map((_, index) => (
                 <div className="skeleton__card" key={index}>
                     <div className="skeleton__frame"></div>
                     <h3 className="skeleton__title"></h3>
